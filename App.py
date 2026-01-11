@@ -9,8 +9,8 @@ Original file is located at
 
 
 import numpy as np
- import joblib
- import streamlit as st
+import joblib
+import streamlit as st
 
 #wine_type_prediction.pkl
 
