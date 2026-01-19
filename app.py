@@ -49,9 +49,9 @@ sulphates,
 alcohol,
 quality,
   ])
-prediction = model.predict(input_data)
+prediction = model.predict(input_data)[0]
 if prediction == 1:
-  st.error('Red wine')
+   st.error('Red wine')
 else:
   st.success('White Wine')
 
