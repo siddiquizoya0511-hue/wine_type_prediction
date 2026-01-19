@@ -49,6 +49,7 @@ sulphates,
 alcohol,
 quality,
   ])
+if st.button("predict"):
 prediction = model.predict(input_data)[0]
 if prediction == 1:
   st.error('Red wine')
